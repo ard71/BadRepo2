@@ -41,7 +41,7 @@ public class World {
 	
 	/**
 	 * Iterated (non-initial) world constructor.
-         *
+     *
 	 * @param cells Cells living in the new world
 	 * @param rng Random number generator
 	 */
@@ -120,11 +120,11 @@ public class World {
 	 */
 	
 	public String toString() {
-<<<<<<< HEAD
+// <<<<<<< HEAD
 		String toReturn = "> ";
-=======
+// =======
 		String toReturn = "* ";
->>>>>>> wjl_display
+// >>>>>>> wjl_display
 		for (int j= 0; j < _size; j++) {
 			toReturn += String.valueOf(j % 10);
 		}
